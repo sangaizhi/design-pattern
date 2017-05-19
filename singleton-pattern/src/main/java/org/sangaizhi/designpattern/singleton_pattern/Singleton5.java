@@ -14,7 +14,7 @@
  * 修改人员：
  * 修改说明：
  */
-package org.sangaizhi.designpattern.singleton;
+package org.sangaizhi.designpattern.singleton_pattern;
 
 /**
  * 这种方式同样利用了classloder的机制来保证初始化instance时只有一个线程，

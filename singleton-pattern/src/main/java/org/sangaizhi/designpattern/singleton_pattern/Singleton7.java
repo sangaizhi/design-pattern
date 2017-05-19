@@ -14,9 +14,10 @@
  * 修改人员：
  * 修改说明：
  */
-package org.sangaizhi.designpattern.singleton;
+package org.sangaizhi.designpattern.singleton_pattern;
 
 /**
+ * 双同步锁实现
  * @name Singleton7
  * @author sangaizhi
  * @date 2017/5/18  23:30

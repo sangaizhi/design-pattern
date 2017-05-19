@@ -14,7 +14,7 @@
  * 修改人员：
  * 修改说明：
  */
-package org.sangaizhi.designpattern.singleton;
+package org.sangaizhi.designpattern.singleton_pattern;
 
 /**
  * 枚举

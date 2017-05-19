@@ -14,9 +14,7 @@
  * 修改人员：
  * 修改说明：
  */
-package org.sangaizhi.designpattern.singleton;
-
-import java.util.concurrent.CountDownLatch;
+package org.sangaizhi.designpattern.singleton_pattern;
 
 /**
  * 懒汉单例模式，线程不安全.

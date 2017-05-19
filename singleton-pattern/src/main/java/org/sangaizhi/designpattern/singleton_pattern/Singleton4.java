@@ -14,7 +14,7 @@
  * 修改人员：
  * 修改说明：
  */
-package org.sangaizhi.designpattern.singleton;
+package org.sangaizhi.designpattern.singleton_pattern;
 
 /**
  * 懒汉模式的变种，还是在类初始化的时候是假话instance
