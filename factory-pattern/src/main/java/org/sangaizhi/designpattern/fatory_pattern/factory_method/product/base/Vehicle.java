@@ -6,6 +6,7 @@ package org.sangaizhi.designpattern.fatory_pattern.factory_method.product.base;
  */
 public interface Vehicle {
 
+    double speed = 0D;
     /**
      * 出行方式
      */

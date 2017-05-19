@@ -5,7 +5,7 @@ import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.Penci
 import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.Repeater;
 import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.Rocket;
 import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.base.Flyable;
-import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.base.Sayable;
+import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.base.Soundable;
 import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.base.Writeable;
 
 /**
@@ -19,7 +19,7 @@ public class FactoryB extends Factory {
     }
 
     @Override
-    public Sayable createSayable() {
+    public Soundable createSayable() {
         return new Repeater();
     }
 

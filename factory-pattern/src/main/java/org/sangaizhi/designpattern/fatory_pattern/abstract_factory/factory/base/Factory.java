@@ -1,7 +1,7 @@
 package org.sangaizhi.designpattern.fatory_pattern.abstract_factory.factory.base;
 
 import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.base.Flyable;
-import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.base.Sayable;
+import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.base.Soundable;
 import org.sangaizhi.designpattern.fatory_pattern.abstract_factory.product.base.Writeable;
 
 /**
@@ -13,7 +13,7 @@ public abstract class Factory {
 
     public abstract Flyable createFlyable();
 
-    public abstract Sayable createSayable();
+    public abstract Soundable createSayable();
 
     public abstract Writeable createWriteable();
 

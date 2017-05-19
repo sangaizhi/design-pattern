@@ -9,7 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>singleton</module>
+        <module>singleton-pattern</module>
+        <module>factory-pattern</module>
     </modules>
 
 
