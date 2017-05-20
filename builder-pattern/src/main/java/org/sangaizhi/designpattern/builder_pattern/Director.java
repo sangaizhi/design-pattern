@@ -21,6 +21,7 @@ import java.util.List;
 
 import org.sangaizhi.designpattern.builder_pattern.builder.BenzBuilder;
 import org.sangaizhi.designpattern.builder_pattern.builder.BmwBuilder;
+import org.sangaizhi.designpattern.builder_pattern.builder.CarBuilder;
 import org.sangaizhi.designpattern.builder_pattern.model.BenzCarModel;
 import org.sangaizhi.designpattern.builder_pattern.model.BmwCarModel;
 
@@ -33,8 +34,8 @@ import org.sangaizhi.designpattern.builder_pattern.model.BmwCarModel;
  */
 public class Director {
     private List<String> sequence = new ArrayList<>();
-    private BenzBuilder benzBuilder = new BenzBuilder();
-    private BmwBuilder bmwBuilder = new BmwBuilder();
+    private CarBuilder benzBuilder = new BenzBuilder();
+    private CarBuilder bmwBuilder = new BmwBuilder();
     public BenzCarModel getABenzCarModel(){
         this.sequence.clear();
         sequence.add("start");
