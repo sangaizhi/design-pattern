@@ -1,0 +1,55 @@
+/**
+ * 文件名称: GamePlayerProxy
+ * 系统名称: design-pattern
+ * 模块名称:
+ * 软件版权:
+ * 功能说明:
+ * 系统版本: 1.0.0.0
+ * 开发人员: sangaizhi
+ * 开发时间: 2017/5/20 20:37
+ * 审核人员:
+ * 相关文档:
+ * 修改记录:
+ * 修改日期:
+ * 修改人员：
+ * 修改说明：
+ */
+package org.sangaizhi.designpattern.proxy_pattern.general_proxy;
+
+/**
+ * @name GamePlayerProxy
+ * @author sangaizhi
+ * @date 2017/5/20  20:37
+ * @version 1.0
+ */
+public class GamePlayerProxy implements IGamePlayer {
+
+    private IGamePlayer iGamePlayer;
+
+    private String name;
+
+    public GamePlayerProxy(String name){
+        try{
+            iGamePlayer = new GamePlayer(this, name);
+        }catch (Exception e){
+            System.out.println("创建代理对象失败");
+        }
+    }
+
+
+    @Override
+    public void login(String user, String password) {
+        this.iGamePlayer.login(user, password);
+    }
+
+    @Override
+    public void killBoss() {
+        this.iGamePlayer.killBoss();
+    }
+
+    @Override
+    public void upgrade() {
+        this.iGamePlayer.upgrade();
+
+    }
+}
